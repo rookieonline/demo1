@@ -13,6 +13,8 @@ public class User implements Serializable {
 
     private Date birthday;
 
+    private Integer age;
+
     public static void main(String[] args) {
         System.out.println("hello world");
     }
