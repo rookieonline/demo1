@@ -1,6 +1,7 @@
 package com.hefeng.domain;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * @author rookie
@@ -9,6 +10,8 @@ import java.io.Serializable;
 public class User implements Serializable {
 
     private String username;//姓名
+
+    private Date birthday;
 
     public static void main(String[] args) {
         System.out.println("hello world");
