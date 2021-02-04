@@ -11,7 +11,7 @@ public class User implements Serializable {
 
     private String username;//姓名
 
-    private Date birthday;
+    private Date birthday;//bug已经解决
 
     private Integer age;
 
