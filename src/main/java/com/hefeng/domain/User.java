@@ -10,6 +10,8 @@ public class User implements Serializable {
 
     private String username;//姓名
 
+    private Integer age;
+
     public static void main(String[] args) {
         System.out.println("hello world");
     }
